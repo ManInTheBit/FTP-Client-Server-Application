@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>808</width>
+                <height>562</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>biTP Client</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QTreeView" name="local_tree_view">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>261</y>
+                        <width>382</width>
+                        <height>191</height>
+                    </rect>
+                </property>
+                <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                    </sizepolicy>
+                </property>
+                <property name="frameShape">
+                    <enum>QFrame::WinPanel</enum>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label">
+                <property name="geometry">
+                    <rect>
+                        <x>14</x>
+                        <y>240</y>
+                        <width>91</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Local File Tree</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+                <property name="geometry">
+                    <rect>
+                        <x>410</x>
+                        <y>239</y>
+                        <width>121</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Remote Directory</string>
+                </property>
+            </widget>
+            <widget class="QFrame" name="frame">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>10</y>
+                        <width>791</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="frameShape">
+                    <enum>QFrame::Panel</enum>
+                </property>
+                <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                </property>
+                <widget class="QLabel" name="label_10">
+                    <property name="geometry">
+                        <rect>
+                            <x>570</x>
+                            <y>10</y>
+                            <width>21</width>
+                            <height>17</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Port</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="input_password">
+                    <property name="geometry">
+                        <rect>
+                            <x>430</x>
+                            <y>10</y>
+                            <width>113</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string/>
+                    </property>
+                </widget>
+                <widget class="QPushButton" name="btn_login">
+                    <property name="geometry">
+                        <rect>
+                            <x>670</x>
+                            <y>10</y>
+                            <width>111</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Connect</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="input_username">
+                    <property name="geometry">
+                        <rect>
+                            <x>240</x>
+                            <y>10</y>
+                            <width>113</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string/>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_9">
+                    <property name="geometry">
+                        <rect>
+                            <x>180</x>
+                            <y>10</y>
+                            <width>51</width>
+                            <height>17</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Username</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_8">
+                    <property name="geometry">
+                        <rect>
+                            <x>10</x>
+                            <y>10</y>
+                            <width>31</width>
+                            <height>17</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Host</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="input_port_number">
+                    <property name="geometry">
+                        <rect>
+                            <x>600</x>
+                            <y>10</y>
+                            <width>41</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string/>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_7">
+                    <property name="geometry">
+                        <rect>
+                            <x>370</x>
+                            <y>10</y>
+                            <width>51</width>
+                            <height>17</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Password</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" name="input_host_name">
+                    <property name="geometry">
+                        <rect>
+                            <x>50</x>
+                            <y>10</y>
+                            <width>113</width>
+                            <height>21</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string/>
+                    </property>
+                </widget>
+                <zorder>groupBox</zorder>
+                <zorder>label_10</zorder>
+                <zorder>input_password</zorder>
+                <zorder>btn_login</zorder>
+                <zorder>input_username</zorder>
+                <zorder>label_9</zorder>
+                <zorder>label_8</zorder>
+                <zorder>input_port_number</zorder>
+                <zorder>label_7</zorder>
+                <zorder>input_host_name</zorder>
+            </widget>
+            <widget class="QListWidget" name="log_list_widget">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>60</y>
+                        <width>791</width>
+                        <height>171</height>
+                    </rect>
+                </property>
+                <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                    </sizepolicy>
+                </property>
+                <property name="frameShape">
+                    <enum>QFrame::WinPanel</enum>
+                </property>
+            </widget>
+            <widget class="QTableView" name="tableView">
+                <property name="geometry">
+                    <rect>
+                        <x>410</x>
+                        <y>260</y>
+                        <width>391</width>
+                        <height>191</height>
+                    </rect>
+                </property>
+                <property name="frameShape">
+                    <enum>QFrame::WinPanel</enum>
+                </property>
+                <attribute name="verticalHeaderVisible">
+                    <bool>false</bool>
+                </attribute>
+            </widget>
+            <widget class="QLabel" name="label_3">
+                <property name="geometry">
+                    <rect>
+                        <x>650</x>
+                        <y>460</y>
+                        <width>151</width>
+                        <height>61</height>
+                    </rect>
+                </property>
+                <property name="frameShape">
+                    <enum>QFrame::WinPanel</enum>
+                </property>
+                <property name="frameShadow">
+                    <enum>QFrame::Sunken</enum>
+                </property>
+                <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Ad
+                        Soyad: BURAK IŞIK&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Öğrenci
+                        No: 141180033&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Proje
+                        Adı: biTP Client &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>808</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <widget class="QMenu" name="menuF_le">
+                <property name="title">
+                    <string>File</string>
+                </property>
+            </widget>
+            <widget class="QMenu" name="menuEdit">
+                <property name="title">
+                    <string>Edit</string>
+                </property>
+            </widget>
+            <widget class="QMenu" name="menuView">
+                <property name="title">
+                    <string>View</string>
+                </property>
+            </widget>
+            <widget class="QMenu" name="menuTransfer">
+                <property name="title">
+                    <string>Transfer</string>
+                </property>
+            </widget>
+            <widget class="QMenu" name="menuHelp">
+                <property name="title">
+                    <string>Help</string>
+                </property>
+            </widget>
+            <addaction name="menuF_le"/>
+            <addaction name="menuEdit"/>
+            <addaction name="menuView"/>
+            <addaction name="menuTransfer"/>
+            <addaction name="menuHelp"/>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
